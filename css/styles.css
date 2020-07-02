@@ -1,4 +1,7 @@
 /* Для етой иконки время перехода не работает */
+:root {
+  --accent: rgb(0, 0, 250);
+}
 .icon {
   --color1: green;
   border: green solid 5px;
@@ -17,7 +20,7 @@
 }
 
 .icon2:hover {
-  fill: blue;
-  border: blue solid 5px;
+  fill: var(--accent);
+  border: var(--accent) solid 5px;
   transition-duration: 5s;
 }
