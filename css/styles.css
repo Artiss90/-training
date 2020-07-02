@@ -1,9 +1,11 @@
 /* Для етой иконки время перехода не работает */
 .icon {
   --color1: green;
+  border: green solid 5px;
 }
 .icon:hover {
   --color1: blue;
+  border: blue solid 5px;
   transition-duration: 5s;
 }
 
@@ -11,9 +13,11 @@
 .icon2 {
   /* для етой иконки в спрайте удаляем fill="#afb1b8" style="fill: var(--color1, #afb1b8)"  */
   fill: green;
+  border: green solid 5px;
 }
 
 .icon2:hover {
   fill: blue;
+  border: blue solid 5px;
   transition-duration: 5s;
 }
