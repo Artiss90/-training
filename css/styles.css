@@ -1,3 +1,4 @@
+/* Для етой иконки время перехода не работает */
 .icon {
   --color1: green;
 }
@@ -6,6 +7,7 @@
   transition-duration: 5s;
 }
 
+/* Для етой иконки время перехода работает */
 .icon2 {
   /* для етой иконки в спрайте удаляем fill="#afb1b8" style="fill: var(--color1, #afb1b8)"  */
   fill: green;
